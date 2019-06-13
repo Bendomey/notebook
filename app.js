@@ -15,7 +15,7 @@ require('dotenv').config({ path: 'variables.env' });
 
 // Passport Config
 require('./config/passport')(passport);
-require('./config/facebookAuth')(passport);
+// require('./config/facebookAuth')(passport);
 
 
 // Connect to MongoDB
